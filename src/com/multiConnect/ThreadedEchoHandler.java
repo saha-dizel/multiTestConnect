@@ -95,6 +95,7 @@ public class ThreadedEchoHandler implements Runnable {
                             if (messagePart.equals(".")) {
                                 dataEnd = true;
                                 System.out.println(id + ": " + 250);
+                                System.out.println(message);
                                 out.println(250);
                             }
                             else
